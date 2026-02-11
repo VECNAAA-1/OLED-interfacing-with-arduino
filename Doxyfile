@@ -1,0 +1,39 @@
+# Doxyfile 1.9.7 - minimal configuration for this Arduino project
+
+# Project identification
+PROJECT_NAME           = "OLED-interfacing-with-arduino"
+PROJECT_BRIEF          = "OLED interfacing examples for Arduino using Adafruit SSD1306"
+OUTPUT_DIRECTORY       = docs
+
+# Build options
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+FULL_PATH_NAMES        = NO
+STRIP_FROM_PATH        = .
+
+# Input
+INPUT                  = src
+FILE_PATTERNS          = *.cpp *.h
+RECURSIVE              = NO
+
+# Source browser / syntax highlighting
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = YES
+
+# Misc
+OPTIMIZE_OUTPUT_JAVA   = NO
+QUIET                  = NO
+WARNINGS               = YES
+WARN_IF_UNDOCUMENTED   = YES
+
+# Output format
+GENERATE_TREEVIEW      = YES
+
+# Markdown support
+MARKDOWN_SUPPORT       = YES
+
+# Timestamp
+GENERATE_TIMESTAMP     = YES
