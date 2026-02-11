@@ -18,7 +18,8 @@ void setup() {
     display.setTextColor(SSD1306_WHITE);
     display.setCursor(0,0);
     display.println("Arduino Uno R4");
-    display.println("Hello Student");
+    // display.println("Hello Student");
+    display.println("Pradeep");
     display.display();
 // write your initialization code here
 }
